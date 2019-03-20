@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Random rand = new Random();
         String question;
         int randA = rand.nextInt(50)+1;
-        int randB = rand.nextInt(50)+1;
+        int randB = rand.nextInt(30)+1;
         int randOpt = rand.nextInt(3)+1;
 
         switch (randOpt)
